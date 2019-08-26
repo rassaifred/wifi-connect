@@ -1,5 +1,5 @@
 #FROM balenalib/%%RESIN_MACHINE_NAME%%-debian
-FROM balenalib/raspberrypi3--debian
+FROM balenalib/raspberrypi3-debian
 
 RUN install_packages dnsmasq wireless-tools
 
