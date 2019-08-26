@@ -26,7 +26,7 @@ if [ $? -eq 0 ]; then
     printf 'Skipping WiFi Connect\n'
 else
     printf 'Starting WiFi Connect\n'
-    ./wifi-connect
+    ./wifi-connect -g 127.0.0.1
 fi
 
 # Start your application here.
